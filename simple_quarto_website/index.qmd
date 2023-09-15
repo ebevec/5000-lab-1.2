@@ -1,0 +1,107 @@
+---
+title: "Simple_quarto_website"
+bibliography: reference.bib
+page-navgiation: true
+---
+
+# This is the First Header
+Vivamus at augue eget arcu dictum varius duis at consectetur. Tincidunt augue interdum velit euismod in pellentesque massa. Et pharetra pharetra massa massa ultricies mi quis. Auctor augue mauris augue neque gravida. Id volutpat lacus laoreet non curabitur. Lacus laoreet non curabitur gravida. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Ut tortor pretium viverra suspendisse. Ac odio tempor orci dapibus ultrices. Id aliquet risus feugiat in. Scelerisque in dictum non consectetur a erat nam. Dolor magna eget est lorem ipsum dolor sit. Nec tincidunt praesent semper feugiat nibh. Suscipit adipiscing bibendum est ultricies integer. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Lorem mollis aliquam ut porttitor. Nisl nisi scelerisque eu ultrices.
+
+# This is the Second Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Id interdum velit laoreet id donec ultrices tincidunt arcu non. Porttitor lacus luctus accumsan tortor posuere. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Ullamcorper malesuada proin libero nunc consequat. Viverra orci sagittis eu volutpat odio facilisis. Urna duis convallis convallis tellus id interdum. Turpis massa tincidunt dui ut ornare lectus. Pretium vulputate sapien nec sagittis aliquam malesuada. Leo in vitae turpis massa sed elementum. Lacinia quis vel eros donec ac odio. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Morbi tincidunt ornare massa eget. Aliquam vestibulum morbi blandit cursus risus at ultrices mi. Ut sem viverra aliquet eget sit. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Vulputate sapien nec sagittis aliquam malesuada.
+
+# This is the Third and Final Header
+Ridiculus mus mauris vitae ultricies leo integer. Senectus et netus et malesuada. Mauris a diam maecenas sed enim ut sem viverra aliquet. Faucibus scelerisque eleifend donec pretium vulputate. Risus at ultrices mi tempus imperdiet nulla. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Mattis enim ut tellus elementum sagittis vitae et. Nisl nisi scelerisque eu ultrices. Elementum nibh tellus molestie nunc non. Gravida rutrum quisque non tellus orci ac auctor augue. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.
+
+## Here are two equations:
+
+$3x = \frac{1}{2y}$
+
+$$
+A \perp B \therefore
+P(A \cap B) = P(A)P(B)
+$$
+
+## Here are some columns:
+
+:::: {.columns}
+::: {.column width="50%"}
+### Column 1
+
+Here is some content in this column
+
+Here's a second row in the column
+:::
+
+::: {.column width="50%"}
+### Column 2
+
+This text is in column 2
+
+Row 2, column 2
+:::
+::::
+
+# Here are the specific tasks from the assignment
+## Here are some lists
+
+::: {layout-ncol=2}
+### Pro List
+
+- Pro 1
+- Pro 2
+- Pro 3
+
+### Con List
+
+- Con 1
+- Con 2
+- Con 3
+:::
+
+
+## Here is a quote
+> The quote is here, here is the quote
+
+## Here is a Markdown Table
+| Col 1       | Col 2       |
+| ----------- | ----------- |
+| Item 1      | Item 3      |
+| Item 2      | Item 4      |
+
+## There is a footnote here
+
+Here[^1]  is the footnote
+
+[^1]: This is what the footnote is referencing
+
+## Mermaid Diagram
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Information] --> B(Synthesis)
+  B --> C{Decision}
+  C --> D[Good outcome]
+  C --> E[Bad outcome]
+```
+
+
+## Two Images and a Video
+:::{.column-page}
+![](images/hike_1.png)
+:::
+
+:::{.column-page}
+![](images/bryce.jpg)
+:::
+
+{{< video https://www.youtube.com/watch?v=nPiolC3TMKI >}}
+
+
+## References
+[@ZHAO20201624]
+[@SHWARTZZIV202284]
+

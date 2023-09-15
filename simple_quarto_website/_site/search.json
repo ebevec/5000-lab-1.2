@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "slides/slides.html#about-me",
+    "href": "slides/slides.html#about-me",
+    "title": "Here is my Slidedeck",
+    "section": "About Me",
+    "text": "About Me\n\nEnjoys Hiking and Climbing\nHas a cat named Bill\nLoves Seafood"
+  },
+  {
+    "objectID": "slides/slides.html#pictures-of-me-hiking",
+    "href": "slides/slides.html#pictures-of-me-hiking",
+    "title": "Here is my Slidedeck",
+    "section": "Pictures of Me Hiking",
+    "text": "Pictures of Me Hiking"
+  },
+  {
+    "objectID": "slides/slides.html#where-ive-lived",
+    "href": "slides/slides.html#where-ive-lived",
+    "title": "Here is my Slidedeck",
+    "section": "Where I’ve lived",
+    "text": "Where I’ve lived\n\nPhiladelphia, PA\nRochester, NY\nWashington, DC"
+  },
+  {
+    "objectID": "slides/slides.html#heres-a-plot",
+    "href": "slides/slides.html#heres-a-plot",
+    "title": "Here is my Slidedeck",
+    "section": "Here’s a Plot",
+    "text": "Here’s a Plot\nimport matplotlib.pyplot as plt \nimport numpy as np\nimport pandas as pd\n\nx = np.arange(0.0, 5.0, 0.01)\ny = range(500)\n\nfig, ax = plt.subplots()\nax.plot(x, y)\nplt.title('Here is a Simple Plot')\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "Here is my Slidedeck",
+    "section": "References",
+    "text": "References\n[@ZHAO20201624] [@SHWARTZZIV202284]"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\nHere is Header 1\nUltrices dui sapien eget mi proin. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Dolor sed viverra ipsum nunc aliquet bibendum. Suscipit adipiscing bibendum est ultricies. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium. Vel turpis nunc eget lorem dolor sed. Et tortor consequat id porta nibh venenatis. Eu augue ut lectus arcu. Cum sociis natoque penatibus et magnis dis. Placerat duis ultricies lacus sed turpis. Vulputate mi sit amet mauris commodo quis. Arcu cursus euismod quis viverra. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et.\n\n\nHere is Header 2\nJusto nec ultrices dui sapien eget mi proin sed libero. Bibendum at varius vel pharetra vel turpis nunc eget. Sed vulputate odio ut enim blandit volutpat. Non enim praesent elementum facilisis leo. Viverra maecenas accumsan lacus vel facilisis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Dignissim enim sit amet venenatis urna cursus eget nunc. Bibendum at varius vel pharetra vel turpis nunc eget. Et ligula ullamcorper malesuada proin. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu.\n\n\nCode\nimport matplotlib.pyplot as plt \nimport numpy as np\nimport pandas as pd\n\nx = np.arange(0.0, 5.0, 0.01)\ny = range(500)\n\nfig, ax = plt.subplots()\nax.plot(x, y)\nplt.title('Here is a Simple Plot')\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simple_quarto_website",
+    "section": "",
+    "text": "Vivamus at augue eget arcu dictum varius duis at consectetur. Tincidunt augue interdum velit euismod in pellentesque massa. Et pharetra pharetra massa massa ultricies mi quis. Auctor augue mauris augue neque gravida. Id volutpat lacus laoreet non curabitur. Lacus laoreet non curabitur gravida. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Ut tortor pretium viverra suspendisse. Ac odio tempor orci dapibus ultrices. Id aliquet risus feugiat in. Scelerisque in dictum non consectetur a erat nam. Dolor magna eget est lorem ipsum dolor sit. Nec tincidunt praesent semper feugiat nibh. Suscipit adipiscing bibendum est ultricies integer. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Lorem mollis aliquam ut porttitor. Nisl nisi scelerisque eu ultrices."
+  },
+  {
+    "objectID": "index.html#here-are-two-equations",
+    "href": "index.html#here-are-two-equations",
+    "title": "Simple_quarto_website",
+    "section": "Here are two equations:",
+    "text": "Here are two equations:\n\\(3x = \\frac{1}{2y}\\)\n\\[\nA \\perp B \\therefore\nP(A \\cap B) = P(A)P(B)\n\\]"
+  },
+  {
+    "objectID": "index.html#here-are-some-columns",
+    "href": "index.html#here-are-some-columns",
+    "title": "Simple_quarto_website",
+    "section": "Here are some columns:",
+    "text": "Here are some columns:\n\n\n\nColumn 1\nHere is some content in this column\nHere’s a second row in the column\n\n\n\nColumn 2\nThis text is in column 2\nRow 2, column 2"
+  },
+  {
+    "objectID": "index.html#here-are-some-lists",
+    "href": "index.html#here-are-some-lists",
+    "title": "Simple_quarto_website",
+    "section": "Here are some lists",
+    "text": "Here are some lists\n\n\n\nPro List\n\nPro 1\nPro 2\nPro 3\n\n\n\nCon List\n\nCon 1\nCon 2\nCon 3"
+  },
+  {
+    "objectID": "index.html#here-is-a-quote",
+    "href": "index.html#here-is-a-quote",
+    "title": "Simple_quarto_website",
+    "section": "Here is a quote",
+    "text": "Here is a quote\n\nThe quote is here, here is the quote"
+  },
+  {
+    "objectID": "index.html#here-is-a-markdown-table",
+    "href": "index.html#here-is-a-markdown-table",
+    "title": "Simple_quarto_website",
+    "section": "Here is a Markdown Table",
+    "text": "Here is a Markdown Table\n\n\n\nCol 1\nCol 2\n\n\n\n\nItem 1\nItem 3\n\n\nItem 2\nItem 4"
+  },
+  {
+    "objectID": "index.html#there-is-a-footnote-here",
+    "href": "index.html#there-is-a-footnote-here",
+    "title": "Simple_quarto_website",
+    "section": "There is a footnote here",
+    "text": "There is a footnote here\nHere1 is the footnote"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "Simple_quarto_website",
+    "section": "Mermaid Diagram",
+    "text": "Mermaid Diagram\n\n\n\n\nflowchart LR\n  A[Information] --&gt; B(Synthesis)\n  B --&gt; C{Decision}\n  C --&gt; D[Good outcome]\n  C --&gt; E[Bad outcome]\n\n\nA Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#two-images-and-a-video",
+    "href": "index.html#two-images-and-a-video",
+    "title": "Simple_quarto_website",
+    "section": "Two Images and a Video",
+    "text": "Two Images and a Video"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Simple_quarto_website",
+    "section": "References",
+    "text": "References\n(Zhao et al. 2020) (Shwartz-Ziv and Armon 2022)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is what the footnote is referencing↩︎"
+  }
+]
